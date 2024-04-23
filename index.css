@@ -1,0 +1,24 @@
+body{
+    background-color: #F4F1F6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section{
+    padding-top: 235px;
+}
+
+
+.button{
+    background-color: #011627;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+
+#answer{
+    width: 600px;
+    margin:auto;
+}
