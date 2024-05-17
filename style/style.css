@@ -1,16 +1,26 @@
-:root {
-    --background: #F4F1F6;
-    --text-color: #663399;
+:root{
+    --background-light-color:#FFF7FC;
+    --border-primary-light-color:#79747E;
+    --button-light-color:#E8DEF8;
+    --button-hover-light-color:#6750A4;
+    --button-hover-text-light-color:#FFF7FC;
+    --button-text-light-color:#6750A4;
+    --text-content-light-color:#49454F;
+    --text-input-border-light-color:#79747E;
+    --text-input-border-hover-light-color:#6750A4;
+    --text-input-placehouder-light-color:#1D1B20;
+    --text-input-placehouder-hover-light-color:#1D1B20;
+    --text-input-error-border-light-color:#B3261E;
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--background-light-color);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 header {
-    color: var(--text-color);
+    color: var(--text-content-light-color);
 }
 
 section {
@@ -18,13 +28,17 @@ section {
 }
 
 .button {
-    background-color: #011627;
-    color: #ffffff;
+    background-color: var(--button-light-color);
+    border: none;
+    border-radius: 1rem;
+    color:var(--button-text-light-color);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    height: 50px;
     min-width: 150px;
     max-width: 300px;
     width: 100%;
-    height: 50px;
 
     /* float: left; */
     /* margin-left: 5px; */
@@ -32,16 +46,17 @@ section {
 }
 
 .button:hover {
-    background-color: #6D72C3;
+    background-color: var(--button-hover-light-color);
+    color: var(--button-hover-text-light-color);
     transition: 0.35s;
 }
 
 .form {
-    width: 320px;
-    border-radius: 0.75rem;
     background-color: rgba(17, 24, 39, 1);
-    padding: 2rem;
+    border-radius: 0.75rem;
     color: rgba(243, 244, 246, 1);
+    padding: 2rem;
+    width: 320px;
 }
 
 #answer {
