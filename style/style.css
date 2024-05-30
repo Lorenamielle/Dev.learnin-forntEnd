@@ -24,15 +24,13 @@ body {
 }
 
 h1{
-    margin: 0;
+    margin: 0px;
+    text-align: center;
+    padding-top: 15px;
 }
 
 header {
     color: var(--text-content-light-color);
-}
-
-section {
-    /* padding-top: 235px; */
 }
 
 .login-container{
@@ -84,7 +82,7 @@ section {
     padding-top: 10rem;
 }
 
-div i{
+#bttpassword{
     cursor: pointer;
     position: relative;
     left: 145px;
@@ -104,7 +102,7 @@ div i{
 .bttsubmit{
     display: block;
     width: 100%;
-    background-color: rgba(167, 139, 250, 1);
+    background-color: #a78bfa;
     padding: 0.75rem;
     text-align: center;
     color: rgba(17, 24, 39, 1);
@@ -156,12 +154,22 @@ div i{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin: 20px;
-    width: 210px;
+    width: 150px;
+    height: 290px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+#icon-menu{
+    align-items: center;
+    font-size: 40px;
+}
+
+#icon-menu:hover{
+    color: #B3261E;
 }
 
 .card:hover{
@@ -181,11 +189,5 @@ div i{
     font-family: helvetica;
     font-size: 18px;
     line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
     margin-bottom: 20px;
 }
