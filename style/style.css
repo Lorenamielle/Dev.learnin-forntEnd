@@ -13,9 +13,27 @@
     --text-input-error-border-light-color:#B3261E;
 }
 
+
+nav {
+    background-color: #6D72C3;
+    width: 1317.5px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+} 
+
+.image {
+   width: 200px;
+   height: 55px;
+
+}
+
+
+
 body {
     background-color: var(--background-light-color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Anek Devanagari", sans-serif;
     text-align: center;
     min-height: 100vh;
     margin: 0;
@@ -27,6 +45,7 @@ h1{
     margin: 0px;
     text-align: center;
     padding-top: 15px;
+    color: #282B71;
 }
 
 header {
@@ -46,13 +65,11 @@ header {
     border: none;
     border-radius: 1rem;
     color:var(--button-text-light-color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Anek Devanagari", sans-serif;
     font-size: large;
     font-weight: bolder;
-    height: 50px;
-    min-width: 150px;
-    max-width: 300px;
-    width: 100%;
+    height: 60px;
+    width: 400px;
 
     /* float: left; */
     /* margin-left: 5px; */
@@ -113,7 +130,7 @@ header {
 }
 
 #answer {
-    width: 600px;
+    width: 620px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -122,6 +139,7 @@ header {
     grid-row-gap: 3px;
     justify-content: center;
     align-items: center;
+    transform: translate(1%, 10%);
 }
 
 #choose {
@@ -137,9 +155,10 @@ header {
 /* STYLE PEPE */
 
 .logo {
-    color: purple;
+    color: #282B71;
     text-align: center;
     font-size: 50px;
+    font-family: "Anek Devanagari", sans-serif;
 }
 
 .main {
@@ -149,7 +168,7 @@ header {
 }
 
 .card {
-    background-color: #f2f2f2;
+    background-color: #E8DEF8;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -161,6 +180,8 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+    transform: translate(1%, 20%);
+    color: #282B71;
 }
 
 #icon-menu{
@@ -168,25 +189,23 @@ header {
     font-size: 40px;
 }
 
-#icon-menu:hover{
-    color: #B3261E;
-}
-
 .card:hover{
     transform: translateY(-10px);
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),
     -4px -4px 12px rgba(0, 0, 0, 0.08);
     transition: all 0.3s;
+    background-color: #6750A4;
+    color: #E8DEF8;
 }
 
 .card h2 {
-    font-family: helvetica;
+    font-family: "Anek Devanagari", sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
 }
 
 .card p {
-    font-family: helvetica;
+    font-family: "Anek Devanagari", sans-serif;
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
