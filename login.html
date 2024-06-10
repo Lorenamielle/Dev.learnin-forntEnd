@@ -15,9 +15,9 @@
         <a href="telainicial.html"><img class="image" src="img/Logo.png" alt="" loading="lazy"></a>
 </nav>
     <div class="formcontainer"> 
-        <form action="" class="form">
+        <form action="" class="form" onsubmit="login(event)">
             <label for="login"></label>
-            <input type="text" class="inputtext" placeholder="Login">
+            <input type="text" class="inputtext" id="email" placeholder="Login">
             <br>
             <label for="senhalogin"></label>
             <input type="password" id="password" class="inputtext" placeholder="Senha">
@@ -25,6 +25,7 @@
             <br> <br>
             <button type="submit" class="bttsubmit">Entrar</button>
         </div>
+        <div id="error">Login ou senha incorreto</div>
     </form>
     <script src="script/main.js"></script>
 </body>
