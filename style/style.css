@@ -218,3 +218,13 @@ header {
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+#error{
+    display: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #B3261E;
+    border-radius: 8px;
+    width: max-content;
+    margin-top: 10px;
+}
