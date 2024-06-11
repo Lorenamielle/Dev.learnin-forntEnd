@@ -14,6 +14,41 @@
 }
 
 
+
+nav {
+    background-color: #6D72C3;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+footer {
+    background-color: #6D72C3;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+} 
+
+footer p{
+    margin: auto;
+    font-weight: bold;
+    color:#FFF7FC ;
+    }
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+
 .image {
     width: 200px;
     height: 55px;
@@ -31,11 +66,11 @@ body {
     margin: 0;
 	padding: 0;
 	border: 0;
-}
-
-h1{
-    margin: 0px;
-    text-align: center;
+    }
+    
+    h1{
+        margin: 0px;
+        text-align: center;
     padding-top: 15px;
     color: #282B71;
 }
@@ -49,7 +84,50 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    margin-left: 805px;
+    margin-bottom: auto;
+    margin-right: 10%;
+    width: 50%;
+    position: relative;
+    margin-top: 150px;
+    height: 100px;
+}
+
+.login-container h2{
+    padding-bottom: -200px;
+}
+
+.login-container p{
+    color:#282B71;
+    font-weight: 400;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.image-container{
+    position: absolute;
+    margin-right: auto;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.image-container img{
+    height: 800px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: -300px;
+
+}
+
+
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
 }
 
 .button {
@@ -144,6 +222,8 @@ h2{
     flex-direction: column;
     align-items: center;
     gap: 5px;
+    margin-top: 45px;
+    margin-left: -50px;
 }
 
 
@@ -156,11 +236,6 @@ h2{
     font-family: "Anek Devanagari", sans-serif;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
-
-}
 
 .card {
     background-color: #E8DEF8;
