@@ -50,6 +50,15 @@ async function login(event) {
     })
 }
 
+function login() {
+    window.location.href = "login.html"
+}
+
+function criarconta(){
+    window.location.href = "criarconta.html"
+}
+
+
 // Função para fazer a solicitação HTTP e manipular a resposta
 function getQuestions() {
     fetch('http://localhost:8080/question/1')

@@ -19,33 +19,20 @@
             <a href="telainicial.html">
                 <img class="image" src="img/Logo.png" alt="" loading="lazy">
             </a>
-            <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
-                <li>Inicio</li>
-                <li>Sobre nós</li>
-            </ul>
         </nav>
     </header>
-    <script src="script/mobile-navbar.js"></script>
-
     <section class="image-container prent"  >
         <img src="img/imagem_inicio.png" alt="imagem do game">
     </section>
-
     <section class="login-container prent">
         <h2>Bem-vindo ao Dev.Learning: A Sua Plataforma Interativa de Aprendizado em Programação!</h2>
-
         <p>Explore, Aprenda e Cresça Com o Dev.Learning, você tem a liberdade de escolher entre uma variedade de linguagens de programação. Seja você um entusiasta de Python, um aficionado por HTML e CSS ou um devoto de Java, nossa plataforma adapta-se às suas preferências. Aprenda no seu próprio ritmo, com exercícios práticos que desafiam sua lógica e habilidade de codificação.</p>
-
         <div id="choose">
-            <a href="login.html"><input class="button" type="button" name="" id="login" value="Login"></a>
-            <a href="criarconta.html"><input class="button" type="button" name="" id="criarconta" value="Criar conta"></a>
+            <input class="button" type="button" name="" id="login" value="Login" onclick="login()">
+            <input class="button" type="button" name="" id="criarconta" value="Criar conta" onclick="criarconta()">
         </div>
     </section>
+    <script src="script/main.js"></script>
     <footer>
 	    <p>&copy; 2024 Equipe Dev.Learning - Todos os direitos reservados.</p>
     </footer>
