@@ -282,4 +282,9 @@ grid-row-gap: 0px;
     border-radius: 8px;
     width: max-content;
     margin-top: 10px;
+    margin: auto;
+}
+
+.sadFace{
+    margin-top: -300px;
 }
