@@ -50,11 +50,11 @@ async function login(event) {
     })
 }
 
-function login() {
+function telalogin() {
     window.location.href = "login.html"
 }
 
-function criarconta(){
+function telacriarconta(){
     window.location.href = "criarconta.html"
 }
 
