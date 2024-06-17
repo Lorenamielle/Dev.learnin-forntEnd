@@ -61,3 +61,16 @@ function nextQuestionJava3(){
 function nextQuestionJava4(){
     window.location.href = "questionsjava4.html"
 }
+
+
+function final(){
+    window.location.href = "acertou.html"
+}
+
+function errou(){
+    window.location.href = "errou.html"
+}
+
+function menu(){
+    window.location.href = "menu.html"
+}
